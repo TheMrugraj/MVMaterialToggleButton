@@ -14,5 +14,6 @@
 @property(nonatomic,assign) IBInspectable CGFloat shadowOpacity;
 @property(nonatomic,assign) IBInspectable CGFloat duration;
 @property(nonatomic,assign) IBInspectable CGFloat raiseFactor;
+@property(nonatomic,assign) IBInspectable CGFloat shadowRadius;
 
 @end

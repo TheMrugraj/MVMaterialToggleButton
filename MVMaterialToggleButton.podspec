@@ -25,7 +25,7 @@ A drop-in subclass of UIButton to mimic Material Design's shadow effect with Tog
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mrugrajsinh Vansadia' => 'mrugrajsinh@gmail.com' }
-  s.source           = { :git => 'https://github.com/TheMrugraj/MVMaterialToggleButton.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TheMrugraj/MVMaterialToggleButton.git', :tag => s.version.to_s, :commit => "4a48d41386d3ab590b4dc54486e5a6582b8c545a"}
   # s.social_media_url = 'https://twitter.com/TheMrugraj'
 
   s.ios.deployment_target = '8.0'

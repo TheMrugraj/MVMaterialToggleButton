@@ -78,12 +78,13 @@
     self.layer.shadowOffset = CGSizeMake(1.0, 1.5);
 }
 
+#define kRiseOffsetFactor 2.0
 -(void)updateRects{
     
-    self.raisedRect = CGRectMake(self.bounds.origin.x - 5.0,
-                                 self.bounds.origin.y + 5.0,
-                                 self.bounds.size.width + (2 * 5.0),
-                                 self.bounds.size.height + 5.0);
+    self.raisedRect = CGRectMake(self.bounds.origin.x - _raiseFactor,
+                                 self.bounds.origin.y + _raiseFactor,
+                                 self.bounds.size.width + (2 * _raiseFactor),
+                                 self.bounds.size.height + _raiseFactor);
     
     self.lowerRect = CGRectMake(self.bounds.origin.x - 0.1,
                                 self.bounds.origin.y + 0.1,
@@ -92,7 +93,7 @@
     
     if(self.selected){
         self.layer.shadowPath = [UIBezierPath bezierPathWithRoundedRect:self.raisedRect cornerRadius:_cornerRadius].CGPath;
-        self.layer.shadowRadius = _raiseFactor;
+        self.layer.shadowRadius = _shadowRadius;
     }else{
         self.layer.shadowPath = [UIBezierPath bezierPathWithRoundedRect:self.lowerRect cornerRadius:_cornerRadius].CGPath;
         self.layer.shadowRadius = 1.0;
@@ -130,11 +131,11 @@
     // Increase shadow radius:
     CABasicAnimation *increaseRadius = [CABasicAnimation animationWithKeyPath:@"shadowRadius"];
     increaseRadius.fromValue = [NSNumber numberWithFloat:startRadius];
-    increaseRadius.toValue = [NSNumber numberWithFloat:_raiseFactor];
+    increaseRadius.toValue = [NSNumber numberWithFloat:_shadowRadius];
     increaseRadius.duration = self.duration;
     increaseRadius.fillMode = kCAFillModeForwards;
     increaseRadius.removedOnCompletion = YES;
-    self.layer.shadowRadius = _raiseFactor;
+    self.layer.shadowRadius = _shadowRadius;
     
     // Lighten the shadow opacity:
     CABasicAnimation *shadowOpacityAnimation = [CABasicAnimation animationWithKeyPath:@"shadowOpacity"];
@@ -166,7 +167,7 @@
     //Ripple Out BG
     
     
-    CGFloat startRadius = _raiseFactor;
+    CGFloat startRadius = _shadowRadius;
     CGFloat startOpacity = _shadowOpacity;
     CGPathRef startPath = [UIBezierPath bezierPathWithRoundedRect:self.raisedRect cornerRadius:_cornerRadius].CGPath;
     
