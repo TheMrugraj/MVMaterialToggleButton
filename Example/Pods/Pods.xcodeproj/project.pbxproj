@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31DA19C011628AC5572C7BAA2B7C8ABA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		47B78D16B0DFA500330D2FE6E60AA5DE /* MVMaterialToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1C33264805FB96A3D25776F809549 /* MVMaterialToggleButton.m */; };
+		4B5F8FEA81AF40E89F146B6FB9F1E45E /* MVMaterialToggleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D2E9F787F31EB6107E6EB5D473C33D /* MVMaterialToggleButton-dummy.m */; };
+		65586FF218AE943B58FEA0BBA94C3151 /* MVMaterialToggleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86632BE703DCC21C8784FEB6542EEEC5 /* MVMaterialToggleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6765F4F6EFD5B6A4171DFFA7F326A274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6FB2B71EF24EB1C0FDF450AA3FF1F701 /* Pods-MVMaterialToggleButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 938099D44C7ED541691F1B6D20A0CC55 /* Pods-MVMaterialToggleButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		787C9C2027910FE3AD7EF15F8C789821 /* Pods-MVMaterialToggleButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D59344DAF8B82511B148896E34AD6CA1 /* Pods-MVMaterialToggleButton_Example-dummy.m */; };
+		85BF8E073A3D40449E06B1BAAE45F324 /* MVMaterialToggleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C438E37F9370E42444BC76E124A79A /* MVMaterialToggleButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE3CB75B8B35B9A4B89B48C5ED45B84C /* Pods-MVMaterialToggleButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D52098079D4FE21E77EA16DE683AE /* Pods-MVMaterialToggleButton_Tests-dummy.m */; };
+		F0684DFDDBFE98087BC4F1BC5C5C5857 /* Pods-MVMaterialToggleButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D059066514E425E3BEB60C56C67F33 /* Pods-MVMaterialToggleButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54FAB1FDF961FF4BAC8E318F120AF0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88B7915386F6B5B95435CFA0B4BC906B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 659FF6A2F6B1F9FFD88A505C7A234DA7;
+			remoteInfo = MVMaterialToggleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E01FDFC6C5C420665855E39C7AED9F0 /* Pods-MVMaterialToggleButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVMaterialToggleButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		13D059066514E425E3BEB60C56C67F33 /* Pods-MVMaterialToggleButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVMaterialToggleButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		18688842DEED3D072161FA85816BE8BD /* Pods-MVMaterialToggleButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVMaterialToggleButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D848772AB8DF5F233FE31FDC74DB674 /* Pods-MVMaterialToggleButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVMaterialToggleButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		261D52098079D4FE21E77EA16DE683AE /* Pods-MVMaterialToggleButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVMaterialToggleButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		31C1C33264805FB96A3D25776F809549 /* MVMaterialToggleButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MVMaterialToggleButton.m; sourceTree = "<group>"; };
+		31F8EEB262E8C717BC81EACFEE64C8F5 /* Pods-MVMaterialToggleButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVMaterialToggleButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		3783B301F8CDFB3F6E71D199AE7A0827 /* MVMaterialToggleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MVMaterialToggleButton.modulemap; sourceTree = "<group>"; };
+		3832CE3887A7D30D558C7960111B152D /* MVMaterialToggleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MVMaterialToggleButton.framework; path = MVMaterialToggleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C438E37F9370E42444BC76E124A79A /* MVMaterialToggleButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MVMaterialToggleButton.h; sourceTree = "<group>"; };
+		4B410C4CF3DAECB535FABD5A60898C37 /* Pods-MVMaterialToggleButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVMaterialToggleButton_Example-resources.sh"; sourceTree = "<group>"; };
+		5CC7EBE38616994D739A8112064C2667 /* Pods-MVMaterialToggleButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVMaterialToggleButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5E449594A32248DA16E13941DE1B353B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62304814A4113424A0DF4E4CCEBF4583 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719D0D428CDF0D3C78176F7598367112 /* Pods_MVMaterialToggleButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MVMaterialToggleButton_Example.framework; path = "Pods-MVMaterialToggleButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D2E9F787F31EB6107E6EB5D473C33D /* MVMaterialToggleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MVMaterialToggleButton-dummy.m"; sourceTree = "<group>"; };
+		86632BE703DCC21C8784FEB6542EEEC5 /* MVMaterialToggleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MVMaterialToggleButton-umbrella.h"; sourceTree = "<group>"; };
+		938099D44C7ED541691F1B6D20A0CC55 /* Pods-MVMaterialToggleButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVMaterialToggleButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9621D64BC0D1D724CA8DC56B6A046D97 /* MVMaterialToggleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MVMaterialToggleButton.xcconfig; sourceTree = "<group>"; };
+		9AA78C68E06A7F15A72259985E17AA9A /* Pods-MVMaterialToggleButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MVMaterialToggleButton_Example.modulemap"; sourceTree = "<group>"; };
+		9F77ACE9CD866AFAD5249F93E1AB7132 /* MVMaterialToggleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MVMaterialToggleButton-prefix.pch"; sourceTree = "<group>"; };
+		AF2822524D7DB96C4C29A103E6417DAD /* Pods-MVMaterialToggleButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVMaterialToggleButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B254FF1FFC994898BECD6E5116310081 /* Pods-MVMaterialToggleButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVMaterialToggleButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BB1547A1F748A1FA0E76C6282B902CDB /* Pods_MVMaterialToggleButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MVMaterialToggleButton_Tests.framework; path = "Pods-MVMaterialToggleButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF6DD40C3C3D308E400249D9232E385 /* Pods-MVMaterialToggleButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVMaterialToggleButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D59344DAF8B82511B148896E34AD6CA1 /* Pods-MVMaterialToggleButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVMaterialToggleButton_Example-dummy.m"; sourceTree = "<group>"; };
+		DDA66BCCEBE359C1FEB9F487904C1345 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB229DB075A3C9CE25C3C814AAF01F1E /* Pods-MVMaterialToggleButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVMaterialToggleButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F115A88343D958E213525AAE2A8EC976 /* Pods-MVMaterialToggleButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVMaterialToggleButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8878E6EBEA62B30E87EC0633A7E2A63 /* Pods-MVMaterialToggleButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MVMaterialToggleButton_Tests.modulemap"; sourceTree = "<group>"; };
+		FB103CA6373DE6AB1E0269C27135DBD0 /* Pods-MVMaterialToggleButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVMaterialToggleButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47FBADC5688E428AD1D9BB9403EF2C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6765F4F6EFD5B6A4171DFFA7F326A274 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CB6059F236A80A929E2E2515C83F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54FAB1FDF961FF4BAC8E318F120AF0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914A065345732B8129E02BF7470102B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DA19C011628AC5572C7BAA2B7C8ABA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2746FEBF61754296DED3433112D7837B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44C438E37F9370E42444BC76E124A79A /* MVMaterialToggleButton.h */,
+				31C1C33264805FB96A3D25776F809549 /* MVMaterialToggleButton.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		616941C6F30BFA32CEFD697C2BB5A469 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB07FE69DAFD90D6836F993896708411 /* MVMaterialToggleButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6753F1C1B541086744CB470514E605CA /* Pods-MVMaterialToggleButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DDA66BCCEBE359C1FEB9F487904C1345 /* Info.plist */,
+				9AA78C68E06A7F15A72259985E17AA9A /* Pods-MVMaterialToggleButton_Example.modulemap */,
+				1D848772AB8DF5F233FE31FDC74DB674 /* Pods-MVMaterialToggleButton_Example-acknowledgements.markdown */,
+				F115A88343D958E213525AAE2A8EC976 /* Pods-MVMaterialToggleButton_Example-acknowledgements.plist */,
+				D59344DAF8B82511B148896E34AD6CA1 /* Pods-MVMaterialToggleButton_Example-dummy.m */,
+				FB103CA6373DE6AB1E0269C27135DBD0 /* Pods-MVMaterialToggleButton_Example-frameworks.sh */,
+				4B410C4CF3DAECB535FABD5A60898C37 /* Pods-MVMaterialToggleButton_Example-resources.sh */,
+				13D059066514E425E3BEB60C56C67F33 /* Pods-MVMaterialToggleButton_Example-umbrella.h */,
+				BEF6DD40C3C3D308E400249D9232E385 /* Pods-MVMaterialToggleButton_Example.debug.xcconfig */,
+				0E01FDFC6C5C420665855E39C7AED9F0 /* Pods-MVMaterialToggleButton_Example.release.xcconfig */,
+			);
+			name = "Pods-MVMaterialToggleButton_Example";
+			path = "Target Support Files/Pods-MVMaterialToggleButton_Example";
+			sourceTree = "<group>";
+		};
+		6CE3AE82B8C536A6732E5A489F871B69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3832CE3887A7D30D558C7960111B152D /* MVMaterialToggleButton.framework */,
+				719D0D428CDF0D3C78176F7598367112 /* Pods_MVMaterialToggleButton_Example.framework */,
+				BB1547A1F748A1FA0E76C6282B902CDB /* Pods_MVMaterialToggleButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		77B01FD886068885193EE33E41387742 /* Pods-MVMaterialToggleButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62304814A4113424A0DF4E4CCEBF4583 /* Info.plist */,
+				F8878E6EBEA62B30E87EC0633A7E2A63 /* Pods-MVMaterialToggleButton_Tests.modulemap */,
+				AF2822524D7DB96C4C29A103E6417DAD /* Pods-MVMaterialToggleButton_Tests-acknowledgements.markdown */,
+				18688842DEED3D072161FA85816BE8BD /* Pods-MVMaterialToggleButton_Tests-acknowledgements.plist */,
+				261D52098079D4FE21E77EA16DE683AE /* Pods-MVMaterialToggleButton_Tests-dummy.m */,
+				5CC7EBE38616994D739A8112064C2667 /* Pods-MVMaterialToggleButton_Tests-frameworks.sh */,
+				31F8EEB262E8C717BC81EACFEE64C8F5 /* Pods-MVMaterialToggleButton_Tests-resources.sh */,
+				938099D44C7ED541691F1B6D20A0CC55 /* Pods-MVMaterialToggleButton_Tests-umbrella.h */,
+				EB229DB075A3C9CE25C3C814AAF01F1E /* Pods-MVMaterialToggleButton_Tests.debug.xcconfig */,
+				B254FF1FFC994898BECD6E5116310081 /* Pods-MVMaterialToggleButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-MVMaterialToggleButton_Tests";
+			path = "Target Support Files/Pods-MVMaterialToggleButton_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				616941C6F30BFA32CEFD697C2BB5A469 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6CE3AE82B8C536A6732E5A489F871B69 /* Products */,
+				BFE8F8B1FF9CEE7A58B56D66586AA30B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BFBB608D4325D2CE1C717FFEDB95C06 /* MVMaterialToggleButton */ = {
+			isa = PBXGroup;
+			children = (
+				2746FEBF61754296DED3433112D7837B /* Classes */,
+			);
+			name = MVMaterialToggleButton;
+			path = MVMaterialToggleButton;
+			sourceTree = "<group>";
+		};
+		AB07FE69DAFD90D6836F993896708411 /* MVMaterialToggleButton */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBB608D4325D2CE1C717FFEDB95C06 /* MVMaterialToggleButton */,
+				CEF58C68D2CCDE49E41ED82120F6E018 /* Support Files */,
+			);
+			name = MVMaterialToggleButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFE8F8B1FF9CEE7A58B56D66586AA30B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6753F1C1B541086744CB470514E605CA /* Pods-MVMaterialToggleButton_Example */,
+				77B01FD886068885193EE33E41387742 /* Pods-MVMaterialToggleButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CEF58C68D2CCDE49E41ED82120F6E018 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E449594A32248DA16E13941DE1B353B /* Info.plist */,
+				3783B301F8CDFB3F6E71D199AE7A0827 /* MVMaterialToggleButton.modulemap */,
+				9621D64BC0D1D724CA8DC56B6A046D97 /* MVMaterialToggleButton.xcconfig */,
+				77D2E9F787F31EB6107E6EB5D473C33D /* MVMaterialToggleButton-dummy.m */,
+				9F77ACE9CD866AFAD5249F93E1AB7132 /* MVMaterialToggleButton-prefix.pch */,
+				86632BE703DCC21C8784FEB6542EEEC5 /* MVMaterialToggleButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MVMaterialToggleButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A3F7D93BDE8AE4B5ED78E6F7E1554EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0684DFDDBFE98087BC4F1BC5C5C5857 /* Pods-MVMaterialToggleButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3721B1B17D653100B6996A86978172D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB2B71EF24EB1C0FDF450AA3FF1F701 /* Pods-MVMaterialToggleButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAAA623717B97BF05421F32FF36DAB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65586FF218AE943B58FEA0BBA94C3151 /* MVMaterialToggleButton-umbrella.h in Headers */,
+				85BF8E073A3D40449E06B1BAAE45F324 /* MVMaterialToggleButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		446FF1CFDB205F79AD6D6B649365365F /* Pods-MVMaterialToggleButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87ECCBFD05FCB36BCC6B78040E20D229 /* Build configuration list for PBXNativeTarget "Pods-MVMaterialToggleButton_Tests" */;
+			buildPhases = (
+				29BAFBF055B608093355E6B598090C81 /* Sources */,
+				914A065345732B8129E02BF7470102B4 /* Frameworks */,
+				3721B1B17D653100B6996A86978172D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MVMaterialToggleButton_Tests";
+			productName = "Pods-MVMaterialToggleButton_Tests";
+			productReference = BB1547A1F748A1FA0E76C6282B902CDB /* Pods_MVMaterialToggleButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		659FF6A2F6B1F9FFD88A505C7A234DA7 /* MVMaterialToggleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9C8293A733F706A4499A34C7083C3B /* Build configuration list for PBXNativeTarget "MVMaterialToggleButton" */;
+			buildPhases = (
+				FEAC2D57F473B262A7A1D4CE8C3B5AB7 /* Sources */,
+				47FBADC5688E428AD1D9BB9403EF2C25 /* Frameworks */,
+				EDAAA623717B97BF05421F32FF36DAB7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVMaterialToggleButton;
+			productName = MVMaterialToggleButton;
+			productReference = 3832CE3887A7D30D558C7960111B152D /* MVMaterialToggleButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F829B9AB807717BF6302AFADC48320E3 /* Pods-MVMaterialToggleButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BAE543C00BBF07167041B2C824B81FC /* Build configuration list for PBXNativeTarget "Pods-MVMaterialToggleButton_Example" */;
+			buildPhases = (
+				3ACDF412CBF15D88F3998F0ED6CB53A8 /* Sources */,
+				82CB6059F236A80A929E2E2515C83F84 /* Frameworks */,
+				2A3F7D93BDE8AE4B5ED78E6F7E1554EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BDD348841AA67E674601CD800891C33 /* PBXTargetDependency */,
+			);
+			name = "Pods-MVMaterialToggleButton_Example";
+			productName = "Pods-MVMaterialToggleButton_Example";
+			productReference = 719D0D428CDF0D3C78176F7598367112 /* Pods_MVMaterialToggleButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6CE3AE82B8C536A6732E5A489F871B69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				659FF6A2F6B1F9FFD88A505C7A234DA7 /* MVMaterialToggleButton */,
+				F829B9AB807717BF6302AFADC48320E3 /* Pods-MVMaterialToggleButton_Example */,
+				446FF1CFDB205F79AD6D6B649365365F /* Pods-MVMaterialToggleButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29BAFBF055B608093355E6B598090C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3CB75B8B35B9A4B89B48C5ED45B84C /* Pods-MVMaterialToggleButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACDF412CBF15D88F3998F0ED6CB53A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787C9C2027910FE3AD7EF15F8C789821 /* Pods-MVMaterialToggleButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAC2D57F473B262A7A1D4CE8C3B5AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5F8FEA81AF40E89F146B6FB9F1E45E /* MVMaterialToggleButton-dummy.m in Sources */,
+				47B78D16B0DFA500330D2FE6E60AA5DE /* MVMaterialToggleButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BDD348841AA67E674601CD800891C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MVMaterialToggleButton;
+			target = 659FF6A2F6B1F9FFD88A505C7A234DA7 /* MVMaterialToggleButton */;
+			targetProxy = 88B7915386F6B5B95435CFA0B4BC906B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30CB7EA709F369C470F3C8A8D0B136CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB229DB075A3C9CE25C3C814AAF01F1E /* Pods-MVMaterialToggleButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MVMaterialToggleButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVMaterialToggleButton_Tests/Pods-MVMaterialToggleButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MVMaterialToggleButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E44A534E09BA7E9BD2BAA1BE10C5635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E01FDFC6C5C420665855E39C7AED9F0 /* Pods-MVMaterialToggleButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MVMaterialToggleButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVMaterialToggleButton_Example/Pods-MVMaterialToggleButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MVMaterialToggleButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3BBF48B987C1D69B9A841EAB1709044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9621D64BC0D1D724CA8DC56B6A046D97 /* MVMaterialToggleButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MVMaterialToggleButton/MVMaterialToggleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MVMaterialToggleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MVMaterialToggleButton/MVMaterialToggleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MVMaterialToggleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB86141D42E57CC18D92809F9F7ED808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9621D64BC0D1D724CA8DC56B6A046D97 /* MVMaterialToggleButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MVMaterialToggleButton/MVMaterialToggleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MVMaterialToggleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MVMaterialToggleButton/MVMaterialToggleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MVMaterialToggleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC3E7D9F653B9C7199FDA5AA6BFFB45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF6DD40C3C3D308E400249D9232E385 /* Pods-MVMaterialToggleButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MVMaterialToggleButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVMaterialToggleButton_Example/Pods-MVMaterialToggleButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MVMaterialToggleButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E575DBC7DBF3338DDF4308523426C8A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B254FF1FFC994898BECD6E5116310081 /* Pods-MVMaterialToggleButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MVMaterialToggleButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVMaterialToggleButton_Tests/Pods-MVMaterialToggleButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MVMaterialToggleButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BAE543C00BBF07167041B2C824B81FC /* Build configuration list for PBXNativeTarget "Pods-MVMaterialToggleButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3E7D9F653B9C7199FDA5AA6BFFB45D /* Debug */,
+				9E44A534E09BA7E9BD2BAA1BE10C5635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9C8293A733F706A4499A34C7083C3B /* Build configuration list for PBXNativeTarget "MVMaterialToggleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BBF48B987C1D69B9A841EAB1709044 /* Debug */,
+				BB86141D42E57CC18D92809F9F7ED808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87ECCBFD05FCB36BCC6B78040E20D229 /* Build configuration list for PBXNativeTarget "Pods-MVMaterialToggleButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CB7EA709F369C470F3C8A8D0B136CA /* Debug */,
+				E575DBC7DBF3338DDF4308523426C8A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

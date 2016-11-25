@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MVMaterialToggleButton_Example' do
+  pod 'MVMaterialToggleButton', :path => '../'
+
+  target 'MVMaterialToggleButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

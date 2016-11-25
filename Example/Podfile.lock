@@ -1,0 +1,16 @@
+PODS:
+  - MVMaterialToggleButton (0.1.0)
+
+DEPENDENCIES:
+  - MVMaterialToggleButton (from `../`)
+
+EXTERNAL SOURCES:
+  MVMaterialToggleButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MVMaterialToggleButton: 26472e5304793b61e4831b1a695ae81f4cd5b463
+
+PODFILE CHECKSUM: 383085752779349300608b1325ac96ff90d80474
+
+COCOAPODS: 1.2.0.beta.1

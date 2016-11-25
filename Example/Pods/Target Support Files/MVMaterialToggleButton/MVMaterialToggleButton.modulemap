@@ -1,0 +1,6 @@
+framework module MVMaterialToggleButton {
+  umbrella header "MVMaterialToggleButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
