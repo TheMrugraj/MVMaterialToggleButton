@@ -24,6 +24,13 @@ it, simply add the following line to your Podfile:
 pod "MVMaterialToggleButton"
 ```
 
+Once above process comlete,
+- Drag & Drop a UIView in storyboard.
+- Assign Class MVMaterialToggleButton to it
+- Set some values for different properties provided like below:
+
+![Settings](https://raw.githubusercontent.com/TheMrugraj/MVMaterialToggleButton/master/Example/settings.png)
+
 ## Author
 
 Mrugrajsinh Vansadia, mrugrajsinh@gmail.com
