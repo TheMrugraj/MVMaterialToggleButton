@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/MVMaterialToggleButton.svg?style=flat)](http://cocoapods.org/pods/MVMaterialToggleButton)
 [![Platform](https://img.shields.io/cocoapods/p/MVMaterialToggleButton.svg?style=flat)](http://cocoapods.org/pods/MVMaterialToggleButton)
 
+
+
+![Animated Demo](https://raw.githubusercontent.com/TheMrugraj/MVMaterialToggleButton/master/Example/MVMaterialToggleButton/MVMaterialToggle.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,9 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0xt-Qt-6r9" customClass="MVMaterialToggleButton">
-                                <frame key="frameInset" minX="81" minY="86" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0xt-Qt-6r9" customClass="MVMaterialToggleButton">
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yl0-jW-ZMl">
                                         <frame key="frameInset" minX="27" minY="47" width="187" height="35"/>
@@ -31,6 +30,10 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="R26-WP-eGC"/>
+                                    <constraint firstAttribute="height" constant="128" id="Uh3-wp-Km8"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="5"/>
@@ -52,10 +55,12 @@
                                     <action selector="btnToggleAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="YtC-4o-O4A"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Toc-qo-cRC" customClass="MVMaterialToggleButton">
-                                <frame key="frameInset" minX="81" minY="239" width="169" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Toc-qo-cRC" customClass="MVMaterialToggleButton">
                                 <color key="backgroundColor" red="0.18039215689999999" green="0.27450980390000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="169" id="rWq-kR-TBw"/>
+                                    <constraint firstAttribute="width" secondItem="Toc-qo-cRC" secondAttribute="height" multiplier="169:71" id="uHA-LV-4OR"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="10"/>
@@ -74,10 +79,12 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rqu-r5-ZFd" customClass="MVMaterialToggleButton">
-                                <frame key="frameInset" minX="81" minY="328" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rqu-r5-ZFd" customClass="MVMaterialToggleButton">
                                 <color key="backgroundColor" red="0.33725490200000002" green="0.76470588240000004" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Rqu-r5-ZFd" secondAttribute="height" multiplier="1:1" id="eFk-IJ-XGd"/>
+                                    <constraint firstAttribute="width" constant="60" id="gb0-n7-gey"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="30"/>
@@ -98,6 +105,14 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.89389197695646183" green="0.88916238977679807" blue="0.89862156413612571" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="0xt-Qt-6r9" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="48" id="H8Y-Ms-Ft8"/>
+                            <constraint firstItem="Rqu-r5-ZFd" firstAttribute="centerX" secondItem="Toc-qo-cRC" secondAttribute="centerX" id="J8K-cC-g7s"/>
+                            <constraint firstItem="Rqu-r5-ZFd" firstAttribute="top" secondItem="Toc-qo-cRC" secondAttribute="bottom" constant="26" id="KIy-bf-sRi"/>
+                            <constraint firstItem="Toc-qo-cRC" firstAttribute="centerX" secondItem="0xt-Qt-6r9" secondAttribute="centerX" id="Ls5-3t-Yuh"/>
+                            <constraint firstItem="0xt-Qt-6r9" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="Y0g-Gj-sG8"/>
+                            <constraint firstItem="Toc-qo-cRC" firstAttribute="top" secondItem="0xt-Qt-6r9" secondAttribute="bottom" constant="20" id="ihb-Dx-dpu"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="lblStatus" destination="Yl0-jW-ZMl" id="kRy-oJ-Ojm"/>
